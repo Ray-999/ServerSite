@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js'></script>
+    <meta charset="UTF-8">
+    <title>Log In Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        form {
+            font-size: 1.5em;
+        }
+        input, button {
+            font-family: monospace;
+            font-size: 2em;
+        }
+    </style>
+</head>
+<body>
+<form action="http://localhost:3000/submit" method="post">
+
+<h1>Log In</h1>
+    <label for = "ID">Your ID</label>
+<input type="text" size="15" id="ID" name="ID">
+    <label for = "Password">Your Password</label>
+<input type="text" size="15" id="Password" name="Password">
+<br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
