@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src='jquery-3-4-1.min.js'></script>
+    <meta charset="UTF-8">
+    <title>challenge5</title>
+</head>
+<body>
+
+<label for="pet-select">Choose a pet you like:</label>
+
+<select id="pet-select" onclick = "loadDoc()">
+    <option value="">--Please choose an option--</option>
+    <option value="dog">Dog</option>
+    <option value="cat">Cat</option>
+    <option value="hamster">Hamster</option>
+    <option value="parrot">Parrot</option>
+    <option value="spider">Spider</option>
+    <option value="goldfish">Goldfish</option>
+</select>
+
+<select id="reaction" onclick = "loading()">
+    <option value="">--Please choose an option--</option>
+    <option value=""></option>
+</select>
+
+<script>
+    function loadDoc() {
+        var pet = $("#pet-select");
+        console.log(pet);
+        $.ajax({
+            url: "challenge5.html",
+            method: "post",
+            data: "pt = pet",
+            success: function(res) {
+                option = document.createElement('option');
+                option.text = res.body.answer;
+                option.value = res.body.answer;
+                $("#reaction").add(option);
+        }
+
+        });
+
+
+        // var xhttp = new XMLHttpRequest();
+        // xhttp.onreadystatechange = function() {
+        //     if (this.readyState == 4 && this.status == 200) {
+        //         document.getElementById("demo").innerHTML = this.responseText;
+        //     }
+        // };
+        // xhttp.open("GET", "ajax_info.txt", true);
+        // xhttp.send();
+    }
+</script>
+</body>
+</html>

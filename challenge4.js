@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 var con = mysql.createConnection({
     host: "10.11.90.16",
     user: "study",
-    password: "Study1111%",
+    password: "Study1111%", 
     port: "3306",
     Schema: "Study",
     Table: "challenge4Ray"
