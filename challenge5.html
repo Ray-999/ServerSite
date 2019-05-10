@@ -9,7 +9,7 @@
 
 <label for="pet-select">Choose a pet you like:</label>
 
-<select id="pet-select" onclick = "loadDoc()">
+<select id="pet-select" onchange = "loadDoc()">
     <option value="">--Please choose an option--</option>
     <option value="dog">Dog</option>
     <option value="cat">Cat</option>
@@ -19,37 +19,30 @@
     <option value="goldfish">Goldfish</option>
 </select>
 
-<select id="reaction" onclick = "loading()">
+<select id="reaction">
     <option value="">--Please choose an option--</option>
-    <option value=""></option>
 </select>
 
 <script>
+
     function loadDoc() {
-        var pet = $("#pet-select");
-        console.log(pet);
+        var p = document.getElementById("pet-select").value;
+        console.log(p);
         $.ajax({
-            url: "challenge5.html",
+            url: "http://localhost:3000/submit",
             method: "post",
-            data: "pt = pet",
+            data: "pt=" + p,
             success: function(res) {
-                option = document.createElement('option');
-                option.text = res.body.answer;
-                option.value = res.body.answer;
-                $("#reaction").add(option);
-        }
+                var option = document.createElement('option');
+                console.log(res);
+                option.text = res;
+                option.value = res;
+                $("#reaction").append(option);
+            }
 
         });
 
 
-        // var xhttp = new XMLHttpRequest();
-        // xhttp.onreadystatechange = function() {
-        //     if (this.readyState == 4 && this.status == 200) {
-        //         document.getElementById("demo").innerHTML = this.responseText;
-        //     }
-        // };
-        // xhttp.open("GET", "ajax_info.txt", true);
-        // xhttp.send();
     }
 </script>
 </body>

@@ -5,7 +5,7 @@ var http = require('http');
 var bodyParser = require("body-parser");
 const port = 3000;
 app.listen(port);
-var pet;
+var pets;
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -14,13 +14,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 app.post('/submit', function (req, res){
+    pets = req.body.pt;
+    console.log(pets);
+    if(pets === "spider"){
+        res.send("I ");
+    }
+    else{
 
-    pt = req.body.pet;
-        if (err) throw err;
-        if(pt){
-            console.log("PASS");
-            res.write("PASS");
-            res.end();
-        }
+    }
 
 });
