@@ -7,6 +7,15 @@ const port = 3000;
 app.listen(port);
 var pets;
 
+var con = mysql.createConnection({
+    host: "10.11.90.16",
+    user: "study",
+    password: "Study1111%",
+    port: "3306",
+    Schema: "Study",
+    Table: "challenge5Ray"
+});
+
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 
@@ -16,11 +25,19 @@ app.use(bodyParser.json());
 app.post('/submit', function (req, res){
     pets = req.body.pt;
     console.log(pets);
-    if(pets === "spider"){
-        res.send("I ");
-    }
-    else{
-
-    }
+    con.query("SELECT answer AS answer FROM Study.challenge5Ray WHERE name = pets", function (err, result) {
+        if (err) throw err;
+        console.log(result);
+        console.log(result[0]);
+        console.log(result[0].answer);
+            res.send(result[0].answer);
+            res.end();
+    });
+    // if(pets === "spider"){
+    //     res.send("I ");
+    // }
+    // else{
+    //
+    // }
 
 });
