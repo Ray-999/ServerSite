@@ -3,7 +3,7 @@ const app = express();
 var mysql = require('mysql');
 var http = require('http');
 var bodyParser = require("body-parser");
-const port = 3000;
+const port = 3001;
 app.listen(port);
 var Password;
 var ID;
@@ -27,9 +27,9 @@ console.log("hjgvwfdhdsvjiejwdqbkocm");
 
 app.post('/submit', function (req, res){
 
-    ID = req.body.ID;
+    Id = req.body.ID;
     Password = req.body.Password;
-    con.query("SELECT password AS password FROM Study.challenge4Ray WHERE id = ID", function (err, result) {
+    con.query("SELECT password AS password FROM Study.challenge4Ray WHERE id = Id", function (err, result) {
         if (err) throw err;
         console.log(result);
         console.log(result[0]);

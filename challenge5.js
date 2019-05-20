@@ -22,15 +22,16 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-app.post('/submit', function (req, res){
-    pets = req.body.pt;
+app.get ('/submit', function (req, res){
+    pets = req.query.pet;
     console.log(pets);
-    con.query("SELECT answer AS answer FROM Study.challenge5Ray WHERE name = pets", function (err, result) {
+    con.query("SELECT response AS ans FROM Study.challenge5Ray WHERE name = pets", function (err, result) {
         if (err) throw err;
         console.log(result);
         console.log(result[0]);
-        console.log(result[0].answer);
-            res.send(result[0].answer);
+        console.log(ans);
+        console.log(result[0].ans);
+            res.send(result[0].ans);
             res.end();
     });
     // if(pets === "spider"){
