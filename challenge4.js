@@ -6,7 +6,7 @@ var bodyParser = require("body-parser");
 const port = 3001;
 app.listen(port);
 var Password;
-var ID;
+var IDs;
 
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -27,9 +27,9 @@ console.log("hjgvwfdhdsvjiejwdqbkocm");
 
 app.post('/submit', function (req, res){
 
-    Id = req.body.ID;
+    IDs = req.body.ID;
     Password = req.body.Password;
-    con.query("SELECT password AS password FROM Study.challenge4Ray WHERE id = Id", function (err, result) {
+    con.query("SELECT password AS password FROM Study.challenge4Ray WHERE id = ?",IDs,function (err, result) {
         if (err) throw err;
         console.log(result);
         console.log(result[0]);

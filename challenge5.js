@@ -5,7 +5,6 @@ var http = require('http');
 var bodyParser = require("body-parser");
 const port = 3000;
 app.listen(port);
-var pets;
 
 var con = mysql.createConnection({
     host: "10.11.90.16",
@@ -25,11 +24,10 @@ app.use(bodyParser.json());
 app.get ('/submit', function (req, res){
     pets = req.query.pet;
     console.log(pets);
-    con.query("SELECT response AS ans FROM Study.challenge5Ray WHERE name = pets", function (err, result) {
+    con.query("SELECT response AS ans FROM Study.challenge5Ray WHERE name = ?",pets,function (err, result) {
         if (err) throw err;
         console.log(result);
         console.log(result[0]);
-        console.log(ans);
         console.log(result[0].ans);
             res.send(result[0].ans);
             res.end();

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="datatables.css"/>
+    <script src='jquery-3-4-1.min.js'></script>
+    <script src='DataTables-1.10.18/js/jquery.dataTables.min.js'></script>
+</head>
+<body>
+
+<!--three condition area-->
+<form id="form" action="">
+    <label>
+        key words:
+        <input type="text" name="input" id="input"><br><br>
+        type:
+        <select id="reaction1">
+            <option></option>
+            <option value="fruit">fruit</option>
+            <option value="math">mathmatical</option>
+        </select><br><br>
+        taste:
+        <select id="reaction2">
+            <option></option>
+            <option value="sweet">sweet</option>
+            <option value="sour">sour</option>
+            <option value="mathe">taste like math</option>
+        </select><br><br>
+
+        <input type="button" onclick="Submit()" value="Submit">
+    </label>
+</form>
+
+<!--table area-->
+<table id="example" class="display" style="width:100%">
+    <thead>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>property</th>
+        <th>type</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <th>id</th>
+        <th>name</th>
+        <th>property</th>
+        <th>type</th>
+    </tr>
+    </tfoot>
+</table>
+
+<script>
+    $( document ).ready(function(){
+        //Perform Ajax request.
+        $.ajax({
+            url: 'http://localhost:3000/table',
+            type: 'get',
+            success: function(res){
+                //If the success function is execute,
+                //then the Ajax request was successful.
+                //Add the data we received in our Ajax
+                //request to the "content" div.
+                console.log(res);
+                var example = $('#example').DataTable();
+                for(var i = 0; i < res.length; i++){
+                    example.row.add([
+                            res[i].id,
+                            res[i].name,
+                            res[i].property,
+                            res[i].type
+                    ]).draw();
+                }
+
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                var errorMsg = 'Ajax request failed: ' + xhr.responseText;
+                $('#content').html(errorMsg);
+            }
+        });
+    });
+
+    function Submit() {
+        var op1 = document.getElementById("input").value;
+        var op2 = document.getElementById("reaction1").value;
+        var op3 = document.getElementById("reaction2").value;
+        console.log(op1);
+        console.log(op2);
+        console.log(op3);
+        $.ajax({
+            url: "http://localhost:3000/submit",
+            method: "get",
+            data: {opt1: op1, opt2: op2, opt3: op3},
+            success: function(res) {
+                console.log(res);
+                var example = $('#example').DataTable();
+                example.clear();
+                example.fnClearTable();
+                for(var i = 0; i < res.length; i++){
+                    example.row.add([
+                        res[i].id,
+                        res[i].name,
+                        res[i].property,
+                        res[i].type
+                    ]).draw();
+                }
+            }
+
+        });
+
+
+    }
+</script>
+</body>
+</html>

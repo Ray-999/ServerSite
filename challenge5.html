@@ -35,6 +35,11 @@
                 console.log(res);
                 option.text = res;
                 option.value = res;
+                var select = document.getElementById("reaction");
+                var length = select.options.length;
+                for (i = 0; i < length; i++) {
+                    select.options[i] = null;
+                }
                 $("#reaction").append(option);
             }
 
