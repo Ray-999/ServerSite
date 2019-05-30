@@ -2,45 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97b5725a-73fe-45b1-beae-60c9d76a2adb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.bootstrap4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.bootstrap4.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.foundation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.foundation.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.jqueryui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.jqueryui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.semanticui.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/dataTables.semanticui.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/jquery.dataTables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/css/jquery.dataTables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/images/sort_asc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/images/sort_asc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/images/sort_both.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/images/sort_desc.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/images/sort_desc_disabled.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.bootstrap4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.bootstrap4.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.foundation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.jqueryui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.jqueryui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.semanticui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/dataTables.semanticui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/jquery.dataTables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DataTables-1.10.18/js/jquery.dataTables.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css-jquery-datatables.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datatables.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/datatables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js-jquery-datatables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/challenge7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge4.js" beforeDir="false" afterPath="$PROJECT_DIR$/challenge4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge5.html" beforeDir="false" afterPath="$PROJECT_DIR$/challenge5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/challenge5.js" beforeDir="false" afterPath="$PROJECT_DIR$/challenge5.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -54,31 +18,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/challenge6.html">
+        <entry file="file://$PROJECT_DIR$/challenge7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
-              <folding>
-                <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="87">
+              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/challenge6.js">
+        <entry file="file://$PROJECT_DIR$/challenge7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/challenge5.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="20">
-              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+            <state relative-caret-position="-375">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
@@ -89,9 +41,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -128,6 +80,9 @@
         <option value="$PROJECT_DIR$/challenge5.js" />
         <option value="$PROJECT_DIR$/challenge6.js" />
         <option value="$PROJECT_DIR$/challenge6.html" />
+        <option value="$PROJECT_DIR$/DataTables-1.10.18/challenge7.js" />
+        <option value="$PROJECT_DIR$/challenge7.html" />
+        <option value="$PROJECT_DIR$/challenge7.js" />
       </list>
     </option>
   </component>
@@ -138,8 +93,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="711" />
-    <option name="y" value="251" />
+    <option name="x" value="796" />
+    <option name="y" value="241" />
     <option name="width" value="1016" />
     <option name="height" value="748" />
   </component>
@@ -162,19 +117,6 @@
               <item name="ServerSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServerSite" type="462c0819:PsiDirectoryNode" />
               <item name="DataTables-1.10.18" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServerSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerSite" type="462c0819:PsiDirectoryNode" />
-              <item name="DataTables-1.10.18" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ServerSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerSite" type="462c0819:PsiDirectoryNode" />
-              <item name="DataTables-1.10.18" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="jquery.dataTables.js" type="620a8d5e:NestingTreeNode" />
             </path>
           </expand>
           <select />
@@ -220,11 +162,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.challenge6.js">
+  <component name="RunManager" selected="Node.js.challenge7.js">
     <configuration name="challenge5.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ServerSite/challenge5.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="challenge3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="challenge3.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
     <configuration name="challenge4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="challenge4.js" working-dir="$PROJECT_DIR$">
@@ -236,13 +175,16 @@
     <configuration name="challenge6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="challenge6.js" working-dir="$PROJECT_DIR$">
       <method v="2" />
     </configuration>
+    <configuration name="challenge7.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="challenge7.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.challenge7.js" />
         <item itemvalue="Node.js.challenge6.js" />
         <item itemvalue="Node.js.challenge4.js" />
         <item itemvalue="Node.js.challenge5.js" />
         <item itemvalue="JavaScript Debug.challenge5.html" />
-        <item itemvalue="Node.js.challenge3.js" />
       </list>
     </recent_temporary>
   </component>
@@ -267,7 +209,8 @@
       <workItem from="1557317447233" duration="19857000" />
       <workItem from="1558553670458" duration="1923000" />
       <workItem from="1558613442558" duration="2835000" />
-      <workItem from="1558699991353" duration="6075000" />
+      <workItem from="1558699991353" duration="6447000" />
+      <workItem from="1559131866925" duration="4954000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1557177644971</created>
@@ -304,11 +247,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558355379762</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="message">
+      <created>1558730122230</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558730122230</updated>
+    </task>
+    <task id="LOCAL-00007" summary="message">
+      <created>1558730336053</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558730336053</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57787000" />
+    <option name="totallyTimeSpent" value="63113000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,7 +277,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="711" y="251" width="1016" height="748" extended-state="0" />
+    <frame x="796" y="241" width="1016" height="748" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25427136" />
@@ -520,48 +477,68 @@
     <entry file="file://$PROJECT_DIR$/DataTables-1.10.18/js/jquery.dataTables.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenge5.js">
+    <entry file="file://$PROJECT_DIR$/challenge5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="425">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataTables-1.10.18/challenge7.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/challenge4.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
+        <state relative-caret-position="312">
           <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenge4.js">
+    <entry file="file://$PROJECT_DIR$/challenge5.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-278">
-          <caret line="5" column="18" lean-forward="true" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+        <state relative-caret-position="-147">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenge5.html">
+    <entry file="file://$PROJECT_DIR$/challenge6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20">
-          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
+        <state relative-caret-position="581">
+          <caret line="63" column="22" lean-forward="true" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="22" />
+          <folding>
+            <element signature="e#2302#2351#0" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/challenge6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="105" column="17" selection-start-line="105" selection-start-column="17" selection-end-line="105" selection-end-column="17" />
+        <state relative-caret-position="13">
+          <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenge6.js">
+    <entry file="file://$PROJECT_DIR$/challenge7.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="83" column="66" selection-start-line="83" selection-start-column="66" selection-end-line="83" selection-end-column="66" />
+        <state relative-caret-position="87">
+          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-375">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
