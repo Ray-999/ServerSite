@@ -1,8 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="datatables.css"/>
+    <script src='jquery-3-4-1.min.js'></script>
+    <script src='DataTables-1.10.18/js/jquery.dataTables.min.js'></script>
+
+
+
 
     <!-- Fine Uploader New/Modern CSS file
     ====================================================================== -->
@@ -103,6 +109,24 @@
     <title>Fine Uploader Manual Upload Trigger Demo</title>
 </head>
 <body>
+<form id="form" action="">
+    <label>
+        place:
+        <input type="text" name="input" id="place"><br><br>
+        density:
+        <input type="text" name="input" id="density"><br><br>
+        file path:
+        <input type="text" name="input" id="file-path"><br><br>
+
+        <input type="button" onclick="Submit()" value="Submit">
+        <a href = "https://www.khanacademy.org/"><input type="button" value="Cancel"></a>
+        <input type="button" onclick="Clear()" value="Clear">
+        <input type="button" onclick="Approve()" value="Approve">
+    </label>
+</form>
+
+
+
 <!-- Fine Uploader DOM Element
 ====================================================================== -->
 <div id="fine-uploader-manual-trigger"></div>
@@ -122,13 +146,52 @@
                 notAvailablePath: '/source/placeholders/not_available-generic.png'
             }
         },
-        autoUpload: false,
-        debug: true
+        autoUpload: false
     });
 
-    qq(document.getElementById("trigger-upload")).attach("click", function() {
-        manualUploader.uploadStoredFiles();
+    $('#trigger-upload').click(function() {
+        $('#fine-uploader-manual-trigger').fineUploader('uploadStoredFiles');
     });
+</script>
+
+
+
+<script>
+    // var ids = document.getElementById("id").value;
+    // var pls = document.getElementById("place").value;
+    // var den = document.getElementById("density").value;
+    // var pas = document.getElementById("file-path").value;
+    // console.log(pls);
+    // console.log(den);
+    // console.log(pas);
+    function Submit() {
+        var pls = document.getElementById("place").value;
+        var den = document.getElementById("density").value;
+        var pas = document.getElementById("file-path").value;
+        console.log(pls);
+        console.log(den);
+        console.log(pas);
+        // var ids = document.getElementById("id").value;
+        console.log("html submit");
+        $.ajax({
+            url: "http://localhost:3000/submit",
+            method: "get",
+            data: {
+                // opt1: ids,
+                opt2: pls, opt3: den, opt4: pas},
+            success: function(res) {
+                console.log("Success!");
+                Clear();
+            }
+
+
+        })
+    }
+    function Clear() {
+        document.getElementById("place").value = "";
+        document.getElementById("density").value = "";
+        document.getElementById("file-path").value = "";
+    }
 </script>
 </body>
 </html>

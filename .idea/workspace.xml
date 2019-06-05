@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97b5725a-73fe-45b1-beae-60c9d76a2adb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/challenge7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/challenge7.js" afterDir="false" />
+    <list default="true" id="97b5725a-73fe-45b1-beae-60c9d76a2adb" name="Default Changelist" comment="message">
+      <change afterPath="$PROJECT_DIR$/challenge7-r.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/challenge7.html" beforeDir="false" afterPath="$PROJECT_DIR$/challenge7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,21 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/challenge7.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="87">
-              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
+            <state relative-caret-position="1861">
+              <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/challenge7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-375">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="391">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fine-uploader/fine-uploader-new.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9" />
           </provider>
         </entry>
       </file>
@@ -77,12 +86,12 @@
         <option value="$PROJECT_DIR$/challenge4.js" />
         <option value="$PROJECT_DIR$/js-jquery-datatables.min.js" />
         <option value="$PROJECT_DIR$/css-jquery-fatatables.min.css" />
-        <option value="$PROJECT_DIR$/challenge5.js" />
         <option value="$PROJECT_DIR$/challenge6.js" />
-        <option value="$PROJECT_DIR$/challenge6.html" />
         <option value="$PROJECT_DIR$/DataTables-1.10.18/challenge7.js" />
-        <option value="$PROJECT_DIR$/challenge7.html" />
+        <option value="$PROJECT_DIR$/challenge6.html" />
+        <option value="$PROJECT_DIR$/challenge5.js" />
         <option value="$PROJECT_DIR$/challenge7.js" />
+        <option value="$PROJECT_DIR$/challenge7.html" />
       </list>
     </option>
   </component>
@@ -93,10 +102,10 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="796" />
-    <option name="y" value="241" />
-    <option name="width" value="1016" />
-    <option name="height" value="748" />
+    <option name="x" value="447" />
+    <option name="y" value="143" />
+    <option name="width" value="1213" />
+    <option name="height" value="906" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -106,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -113,16 +123,10 @@
               <item name="ServerSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="ServerSite" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ServerSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ServerSite" type="462c0819:PsiDirectoryNode" />
-              <item name="DataTables-1.10.18" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,7 +147,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -210,7 +214,8 @@
       <workItem from="1558553670458" duration="1923000" />
       <workItem from="1558613442558" duration="2835000" />
       <workItem from="1558699991353" duration="6447000" />
-      <workItem from="1559131866925" duration="4954000" />
+      <workItem from="1559131866925" duration="7697000" />
+      <workItem from="1559564099190" duration="3772000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1557177644971</created>
@@ -261,11 +266,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558730336053</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="message">
+      <created>1559219452696</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1559219452696</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63113000" />
+    <option name="totallyTimeSpent" value="69628000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -277,15 +289,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="796" y="241" width="1016" height="748" extended-state="0" />
-    <editor active="true" />
+    <frame x="447" y="143" width="1213" height="906" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25427136" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21224833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49547738" visible="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49547738" visible="true" weight="0.26535627" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,13 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenge 1.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/mysql/lib/Connection.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
@@ -484,9 +488,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataTables-1.10.18/challenge7.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/DataTables-1.10.18/challenge7.js" />
     <entry file="file://$PROJECT_DIR$/challenge4.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-365">
@@ -501,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenge5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/challenge6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="581">
@@ -518,29 +513,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/challenge 1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="5" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge5.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/challenge6.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="13">
-          <caret line="86" column="25" lean-forward="true" selection-start-line="86" selection-start-column="25" selection-end-line="86" selection-end-column="25" />
+        <state relative-caret-position="34">
+          <caret line="87" column="25" selection-start-line="87" selection-start-column="25" selection-end-line="87" selection-end-column="25" />
           <folding>
             <element signature="n#style#0;n#table#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/challenge7.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="23" selection-end-line="35" selection-end-column="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/challenge7-r.html">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/challenge7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-375">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="391">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fine-uploader/fine-uploader-new.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/challenge7.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1861">
+          <caret line="114" column="35" selection-start-line="114" selection-start-column="35" selection-end-line="114" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
