@@ -189,9 +189,8 @@
                 console.log("Success!");
                 Clear();
             }
-
-
-        })
+        });
+        manualUploader.uploadStoredFiles()
     }
     function Clear() {
         // document.getElementById("place").value = "";
@@ -202,9 +201,20 @@
         console.log("clear");
         manualUploader.cancelAll()
     }
-    function Approve() {
 
+
+    function Approve() {
+        $.ajax({
+            url: "http://localhost:3000/approve",
+            method: "get",
+            data: {},
+            success: function(res) {
+                console.log("Success!");
+                Clear();
+            }
+        });
     }
+
 </script>
 </body>
 </html>

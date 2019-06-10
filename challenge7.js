@@ -20,6 +20,7 @@ var fs = require("fs"),
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 
+
 // parse application/json
 app.use(bodyParser.json());
 
@@ -33,24 +34,73 @@ var con = mysql.createConnection({
 });
 
 app.get ('/submit', function (req, res){
-    console.log("Js submit");
+    // console.log("Js submit");
     // ids = req.query.opt1;
     pls = req.query.opt2;
     den = req.query.opt3;
     pas = req.query.opt4;
     // console.log(ids);
-    console.log(pls);
-    console.log(den);
-    console.log(pas);
-
+    // console.log(pls);
+    // console.log(den);
+    // console.log(pas);
+    // console.log(uploadedFilesPath);
     con.query("INSERT INTO Study.challenge7Ray (place, density, file_path) VALUES (?, ?, ?);",[pls, den, pas],function (err, result) {
         if (err) throw err;
-        console.log(result);
+        // console.log(result);
         res.send("Your submit is complete!");
         res.end();
     });
 });
 
+
+app.get ('/approve', function (req, res) {
+        // if (err) throw err;
+    console.log("hvhjhkjb");
+
+        //moves the $file to $dir2
+        var moveFile = (file, dir2)=>{
+            //include the fs, path modules
+            var fs = require('fs');
+            var path = require('path');
+
+            //gets file name and adds it to dir2
+            var f = path.basename(file);
+            var dest = path.resolve(dir2, f);
+
+            fs.rename(file, dest, (err)=>{
+                if(err) throw err;
+                else console.log('Successfully moved');
+            });
+        };
+
+
+        function getFiles(dir){
+            fileList = [];
+
+            var files = fs.readdirSync(dir);
+            for(var i in files){
+                if (!files.hasOwnProperty(i)) continue;
+                var name = dir+'/'+files[i];
+                if (!fs.statSync(name).isDirectory()){
+                    fileList.push(name);
+                }
+            }
+            return fileList;
+        }
+
+        var flist = getFiles('uploadFiles');
+//move file1.htm from 'test/' to 'test/dir_1/'
+        console.log(flist);
+        console.log(fileList);
+        console.log("mee");
+        for(var i=0; i< fileList.length; i++) {
+            moveFile(fileList[i], 'DataDir');
+        }
+        // console.log(result);
+        res.send("!");
+        res.end();
+    });
+// });
 
 
 
@@ -214,24 +264,30 @@ function moveFile(destinationDir, sourceFile, destinationFile, success, failure)
 }
 
 function moveUploadedFile(file, uuid, success, failure) {
-    var destinationDir = uploadedFilesPath + uuid + "/",
-        fileDestination = destinationDir + file.name;
-
+    var destinationDir = "uploadFiles/",
+        date = new Date,
+        fileDestination = destinationDir + file.name + date;
+    console.log("hahahha: ");
+    console.log(destinationDir);
     moveFile(destinationDir, file.path, fileDestination, success, failure);
 }
 
 function storeChunk(file, uuid, index, numChunks, success, failure) {
-    var destinationDir = uploadedFilesPath + uuid + "/" + chunkDirName + "/",
+    var destinationDir = "uploadFiles/" + chunkDirName + "/",
+        date = new Date,
         chunkFilename = getChunkFilename(index, numChunks),
-        fileDestination = destinationDir + chunkFilename;
+        fileDestination = destinationDir + chunkFilename + date;
+    console.log(destinationDir);
 
     moveFile(destinationDir, file.path, fileDestination, success, failure);
 }
 
 function combineChunks(file, uuid, success, failure) {
     var chunksDir = uploadedFilesPath + uuid + "/" + chunkDirName + "/",
-        destinationDir = uploadedFilesPath + uuid + "/",
-        fileDestination = destinationDir + file.name;
+        date = new Date,
+        destinationDir = "uploadFiles/",
+        fileDestination = destinationDir + file.name + date;
+    console.log(destinationDir);
 
 
     fs.readdir(chunksDir, function(err, fileNames) {
