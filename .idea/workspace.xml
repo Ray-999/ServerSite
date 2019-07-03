@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="97b5725a-73fe-45b1-beae-60c9d76a2adb" name="Default Changelist" comment="message" />
+    <list default="true" id="97b5725a-73fe-45b1-beae-60c9d76a2adb" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/challenge7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="149">
+              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -138,7 +138,7 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="208" />
+    <option name="x" value="250" />
     <option name="y" value="147" />
     <option name="width" value="1213" />
     <option name="height" value="906" />
@@ -245,7 +245,7 @@
       <workItem from="1559935756508" duration="8525000" />
       <workItem from="1560369315787" duration="140000" />
       <workItem from="1560428131883" duration="334000" />
-      <workItem from="1561989169066" duration="541000" />
+      <workItem from="1561989169066" duration="1178000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1557177644971</created>
@@ -331,11 +331,25 @@
       <option name="project" value="LOCAL" />
       <updated>1561989183186</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="message">
+      <created>1561990012721</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1561990012721</updated>
+    </task>
+    <task id="LOCAL-00014" summary="message">
+      <created>1561990018290</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1561990018290</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88896000" />
+    <option name="totallyTimeSpent" value="89533000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,10 +362,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="208" y="147" width="1213" height="906" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32130873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49547738" weight="0.26535627" />
@@ -631,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/challenge7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="20" />
+        <state relative-caret-position="149">
+          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
