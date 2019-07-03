@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/challenge7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+            <state relative-caret-position="-468">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -138,8 +138,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="250" />
-    <option name="y" value="147" />
+    <option name="x" value="211" />
+    <option name="y" value="107" />
     <option name="width" value="1213" />
     <option name="height" value="906" />
   </component>
@@ -151,8 +151,18 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ServerSite" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ServerSite" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,6 +256,7 @@
       <workItem from="1560369315787" duration="140000" />
       <workItem from="1560428131883" duration="334000" />
       <workItem from="1561989169066" duration="1178000" />
+      <workItem from="1562173425411" duration="410000" />
     </task>
     <task id="LOCAL-00001" summary="message">
       <created>1557177644971</created>
@@ -345,11 +356,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561990018290</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="message">
+      <created>1562173435465</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1562173435465</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89533000" />
+    <option name="totallyTimeSpent" value="89943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -361,13 +379,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="208" y="147" width="1213" height="906" extended-state="0" />
-    <editor active="true" />
+    <frame x="211" y="107" width="1213" height="906" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32130873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3292683" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49547738" weight="0.26535627" />
@@ -378,7 +394,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.3292683" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5045226" side_tool="true" weight="0.3292683" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5045226" side_tool="true" visible="true" weight="0.32923833" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -647,8 +664,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/challenge7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="20" column="31" lean-forward="true" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+        <state relative-caret-position="-468">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
